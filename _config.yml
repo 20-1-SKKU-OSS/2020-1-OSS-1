@@ -25,7 +25,7 @@ texture:
 
   # generate social links in footer
   social_links:
-    github:  20-1-skku-oss/2020-1-oss-1
+    github:  20-1-skku-oss.github.io/2020-1-oss-1
     rss: rss
  
 
