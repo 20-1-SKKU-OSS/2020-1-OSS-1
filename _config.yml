@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: 오픈소스웨어 실습 1조
+subtitle: OSS project
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -8,20 +8,10 @@ baseurl:
 remote_theme: sujaykundu777/devlopr-jekyll
 
 urls:
-    - text: About Me
+    - text: About Us
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact Me
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
 
 # Edit these details
 
