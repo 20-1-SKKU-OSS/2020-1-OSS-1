@@ -590,7 +590,7 @@ Pyxel은 다음 소프트웨어를 사용합니다:
 
 # 2. 팀원 소개
 **고은서**
-- github id : 
+- github id : 999rainnie
 
 **김연주**
 - github id : EstelLa-83
