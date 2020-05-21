@@ -46,7 +46,7 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 - github id : ye-song-lee
 
 **정세린**
-- github id : serin0821
+- github id : serinchung
 
 **천세헌**
 - github id : thousae
