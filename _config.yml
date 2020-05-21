@@ -1,6 +1,6 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          OSS 1조
+description:    "..."
 baseurl:       
 url:            "https://chesterhow.github.io"
 remote_theme: chesterhow/tale
