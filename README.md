@@ -584,5 +584,28 @@ Pyxel은 다음 소프트웨어를 사용합니다:
 - [SDL2](https://www.libsdl.org/)
 - [miniz-cpp](https://github.com/tfussell/miniz-cpp)
 - [Gifsicle](https://www.lcdf.org/gifsicle/)
-팀원 소개
-역할 소개
+
+
+
+
+# 2. 팀원 소개
+**고은서**
+- github id : 
+
+**김연주**
+- github id : EstelLa-83
+
+**이예송**
+- github id : ye-song-lee
+
+**정세린**
+- github id : serin0821
+
+**천세헌**
+- github id : thousae
+
+# 3. 역할 소개
+- 고은서, 김연주: 프로젝트의 세가지 게임을 여러 난이도로 진행할 수 있도록 수정
+- 이예송: 프로젝트에 pyxel을 이용한 다른 게임 추가
+- 정세린: 팀 정적페이지 만들기
+- 천세헌: pyxel 에디터를 활용하여 직접 게임에 이미지와 사운드 추가 & 팔레트에 색 추가
