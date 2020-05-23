@@ -39,19 +39,19 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 
 고은서
 > 소프트웨어학과 3학년<br>
-> 이메일: 999colorrainbow@gmail.com  
+> 이메일: 999colorrainbow@gmail.com<br>
 > GitHub ID: 999rainnie  
 <br>
 
 김연주
 > <br>
-> 이메일: juju0448@naver.com  
+> 이메일: juju0448@naver.com<br> 
 > GitHub ID: EstelLa-83 <br>
 <br>
 
 이예송
 > <br>
-> 이메일: dough522@naver.com  
+> 이메일: dough522@naver.com<br>
 > GitHub ID: ye-song-lee <br>
 <br>
 
@@ -63,7 +63,7 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 
 천세헌 
 > <br>
-> 이메일: saehun0519@gmail.com   
+> 이메일: saehun0519@gmail.com<br>
 > GitHub ID: thousae 
 
 # 3. 역할 소개
