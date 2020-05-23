@@ -37,10 +37,10 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 
 # 2. 팀원 소개
 
-고은서
-* 학번: 2018310072<br>
-* 이메일: 999colorrainbow@gmail.com  
-* GitHub ID: 999rainnie  
+* 고은서
+> 학번: 2018310072<br>
+> 이메일: 999colorrainbow@gmail.com  
+> GitHub ID: 999rainnie  
 <br>
 
 김연주
