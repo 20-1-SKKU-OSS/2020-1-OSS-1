@@ -56,7 +56,7 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 <br>
 
 정세린
-> <br>
+> 신소재공학부 3학년<br>
 > 이메일: serin0821@naver.com <br>
 > GitHub ID: serinchung <br>
 <br>
