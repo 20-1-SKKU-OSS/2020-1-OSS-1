@@ -19,7 +19,7 @@ author: "정세린"
 <br><br>
 
 <strong>이예송</strong>  
-* o
+* 소프트웨어학과 2학년
 * 이메일: dough522@naver.com  
 * GitHub ID: ye-song-lee <br>
 * 기여 방안: pyxel을 이용한 새로운 게임을 프로젝트에 추가 & README.md 제작
