@@ -44,7 +44,7 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 <br>
 
 김연주
-> <br>
+> 소프트웨어학과 2학년<br>
 > 이메일: juju0448@naver.com<br> 
 > GitHub ID: EstelLa-83 <br>
 <br>
