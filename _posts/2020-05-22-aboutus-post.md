@@ -12,10 +12,10 @@ author: "정세린"
 <br><br>
 
 <strong>김연주</strong>  
-* o
+* 소프트웨어학과 2학년
 * 이메일: juju0448@naver.com  
 * GitHub ID: EstelLa-83 <br>
-* 기여 방안: pyxel을 이용한 3가지 게임에 대해 개선할 사항과 추가할 기능들 구현
+* 기여 방안: pyxel을 이용한 3가지 게임에 대해 개선할 사항과 추가할 기능들 구현 & 기존 프로젝트 이전
 <br><br>
 
 <strong>이예송</strong>  
