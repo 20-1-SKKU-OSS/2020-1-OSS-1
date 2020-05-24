@@ -32,7 +32,7 @@
 </a>
 
 Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/pico-8.php)과 [TIC-80](https://tic.computer/)의 디자인을 참고하고 있습니다.
-
+<br>
 
 
 # 2. 팀원 소개
@@ -65,6 +65,8 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 > <br>
 > 이메일: saehun0519@gmail.com<br>
 > GitHub ID: thousae 
+
+<br>
 
 # 3. 역할 소개
 - 고은서, 김연주: 프로젝트의 세가지 게임을 여러 난이도로 진행할 수 있도록 수정
