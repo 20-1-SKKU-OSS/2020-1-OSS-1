@@ -32,7 +32,7 @@
 </a>
 
 Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/pico-8.php)과 [TIC-80](https://tic.computer/)의 디자인을 참고하고 있습니다.
-<br>
+<br><br>
 
 
 # 2. 팀원 소개
