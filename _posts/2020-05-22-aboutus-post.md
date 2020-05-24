@@ -33,7 +33,7 @@ author: "정세린"
 <br><br>
 
 <strong>천세헌</strong>  
-* o
+* 소프트웨어학과 2학년
 * 이메일: saehun0519@gmail.com   
 * GitHub ID: thousae <br>
 * 기여 방안: pyxel editor를 활용하여 직접 게임에 이미지, 사운드, 색 등을 추가
