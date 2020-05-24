@@ -50,7 +50,7 @@ Pyxel의 게이밍 콘솔, API의 사양은 [PICO-8](https://www.lexaloffle.com/
 <br>
 
 이예송
-> <br>
+> 소프트웨어학과 2학년<br>
 > 이메일: dough522@naver.com<br>
 > GitHub ID: ye-song-lee <br>
 <br>
