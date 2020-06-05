@@ -46,9 +46,9 @@ class Tetris:
 			move_direction = constants.direction_R
 		elif pyxel.btnp(pyxel.constants.KEY_DOWN ,12, 2):
 			move_direction = constants.direction_D
-		elif pyxel.btnp(pyxel.constants.KEY_Z ,12, 20):
+		elif pyxel.btnp(pyxel.constants.KEY_L ,12, 20):
 			rotate_direction = constants.direction_L
-		elif pyxel.btnp(pyxel.constants.KEY_X ,12, 20):
+		elif pyxel.btnp(pyxel.constants.KEY_R ,12, 20):
 			rotate_direction = constants.direction_R
 
 		if  self.block.move_block(move_direction, self.grid):
