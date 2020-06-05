@@ -73,11 +73,11 @@ class Tetris:
 
 	def draw(self):
 		self.draw_grid()
-		pyxel.text(40, 190, "SCORE: ", 10)
-		pyxel.text(70, 190, str(self.score), 12)
-		pyxel.text(6, 200, "Q:quit", 8)
-		pyxel.text(40, 200, "P:pause", 9)
-		pyxel.text(76, 200, "R:restart", 11)
+		pyxel.text(40, 195, "SCORE: ", 8)
+		pyxel.text(70, 195, str(self.score), 8)
+		pyxel.text(6, 205, "Q:quit", 14)
+		pyxel.text(40, 205, "P:pause", 7)
+		pyxel.text(76, 205, "R:restart", 10)
 
 	def draw_grid(self):
 		pyxel.cls(0)
