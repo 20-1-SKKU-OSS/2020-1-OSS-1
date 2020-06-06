@@ -26,7 +26,8 @@
 3. 메뉴들의 위치를 좀 더 내리고 각각의 색을 바꿨습니다
 
 
-
+실행 화면 예시
+---------
 ![][tetris-image]
 
 [tetris-image]: https://github.com/shivanju/pyxel-games/blob/master/Tetris/tetris_screenshot.png
