@@ -9,6 +9,8 @@ class App:
 
         pyxel.load("assets/jump_game.pyxres")
 
+        self.plus = 0
+        self.before = 0
         self.score = 0
         self.player_x = 72
         self.player_y = -16
@@ -20,7 +22,7 @@ class App:
         self.floor = [(i * 60, randint(8, 104), True) for i in range(4)]
         self.fruit = [(i * 60, randint(0, 104), randint(0, 2), True) for i in range(4)]
 
-        pyxel.playm(0, loop=True)
+        pyxel.playm(0, loop = True)
 
         pyxel.run(self.update, self.draw)
 
@@ -42,6 +44,10 @@ class App:
 
         if pyxel.btn(pyxel.KEY_RIGHT) or pyxel.btn(pyxel.GAMEPAD_1_RIGHT):
             self.player_x = min(self.player_x + 2, pyxel.width - 16)
+
+        if (self.score / 100) > self.before:
+            self.before = self.score / 100
+            self.plus += 5
 
         self.player_y += self.player_vy
         self.player_vy = min(self.player_vy + 1, 8)
@@ -104,35 +110,35 @@ class App:
         pyxel.cls(12)
 
         # draw sky
-        pyxel.blt(0, 88, 0, 0, 88, 160, 32)
+        pyxel.blt(0, 88, 0, 0, 88 + self.plus, 160, 32)
 
         # draw mountain
-        pyxel.blt(0, 88, 0, 0, 64, 160, 24, 12)
+        pyxel.blt(0, 88, 0, 0, 64, 160 + self.plus, 24, 12)
 
         # draw forest
         offset = pyxel.frame_count % 160
         for i in range(2):
-            pyxel.blt(i * 160 - offset, 104, 0, 0, 48, 160, 16, 12)
+            pyxel.blt(i * 160 - offset, 104, 0, 0, 48, 160 + self.plus, 16, 12)
 
         # draw clouds
         offset = (pyxel.frame_count // 16) % 160
         for i in range(2):
             for x, y in self.far_cloud:
-                pyxel.blt(x + i * 160 - offset, y, 0, 64, 32, 32, 8, 12)
+                pyxel.blt(x + i * 160 - offset, y, 0, 64, 32, 32 + self.plus, 8, 12)
 
         offset = (pyxel.frame_count // 8) % 160
         for i in range(2):
             for x, y in self.near_cloud:
-                pyxel.blt(x + i * 160 - offset, y, 0, 0, 32, 56, 8, 12)
+                pyxel.blt(x + i * 160 - offset, y, 0, 0, 32, 56 + self.plus, 8, 12)
 
         # draw floors
         for x, y, is_active in self.floor:
-            pyxel.blt(x, y, 0, 0, 16, 40, 8, 12)
+            pyxel.blt(x, y, 0, 0, 16, 40 + self.plus, 8, 12)
 
         # draw fruits
         for x, y, kind, is_active in self.fruit:
             if is_active:
-                pyxel.blt(x, y, 0, 32 + kind * 16, 0, 16, 16, 12)
+                pyxel.blt(x, y, 0, 32 + kind * 16, 0, 16 + self.plus, 16, 12)
 
         # draw player
         pyxel.blt(
@@ -141,7 +147,7 @@ class App:
             0,
             16 if self.player_vy > 0 else 0,
             0,
-            16,
+            16 + self.plus,
             16,
             12,
         )
@@ -153,3 +159,4 @@ class App:
 
 
 App()
+
