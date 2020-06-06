@@ -1,5 +1,4 @@
 # beat game
-https://github.com/20-1-SKKU-OSS/2020-1-OSS-1/blob/master/pyxel/examples/beat%20game/beat%20game.PNG
 <img src="https://github.com/20-1-SKKU-OSS/2020-1-OSS-1/blob/master/pyxel/examples/beat%20game/beat%20game.PNG" width="40%">
 개요
 ----
