@@ -9,8 +9,8 @@ class Block():
 		if shape != None:
 			self.shape = shape
 		else:
-			self.shape = random.randint(0, 6)
-		self.position = (0, 3)
+			self.shape = random.randint(0, 4)
+		self.position = (0, 7)
 
 	def move_block(self, direction, grid):
 		"""moves a block one step in a given direction"""
@@ -35,7 +35,7 @@ class Block():
 		"""rotates a block in a given direction"""
 		if direction == None:
 			return
-		new_orientation = (self.orientation + 1) % 4 if direction == constants.direction_R else (self.orientation - 1) % 4
+		new_orientation = (self.orientation + 1) % 8 if direction == constants.direction_R else (self.orientation - 1) % 8
 		if self.is_valid_block(self.get_block_tiles(self.position, new_orientation), grid):
 			self.orientation = new_orientation
 			return True
